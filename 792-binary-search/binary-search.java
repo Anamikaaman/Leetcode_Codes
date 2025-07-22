@@ -7,7 +7,7 @@ class Solution {
             int mid=(start+end)/2;
             if(nums[mid]==target){
                 return mid;
-            }else if(target>nums[mid]){
+            }else if(nums[mid]<target){
                 start=mid+1;
             }else{
                 end=mid-1;
