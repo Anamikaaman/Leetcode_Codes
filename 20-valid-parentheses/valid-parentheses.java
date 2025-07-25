@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Solution {
     public static boolean isValid(String s) {
         //i use for-each loop to store string in a array and iterate on each element of the string to store in a array make it easy to iterate on each of the element.
